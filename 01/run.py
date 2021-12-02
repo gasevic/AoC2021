@@ -24,8 +24,6 @@ for line in lines:
         sum1 = sum1 + int(line)
         sum2 = sum2 + int(line)
         sum3 = sum3 + int(line)
-
-    if i == 3 :
         if sum1 > tmp2 :
             count_part2 = count_part2 + 1
         tmp2 = sum1
@@ -34,10 +32,8 @@ for line in lines:
         sum3 = 0
         i = 2
 
-
     if sum2 > sum1:
         count_part2 = count_part2 + 1
-
 
     if int(line) > int(tmp):
         count_part1 = count_part1 + 1
